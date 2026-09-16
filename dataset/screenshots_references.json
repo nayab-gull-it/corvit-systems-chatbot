@@ -1,0 +1,42 @@
+[
+  {
+    "id": "schedule_flyer",
+    "title": "Corvit Systems Batch Schedule Flyer",
+    "description": "Official batch schedule flyer displaying upcoming morning, evening, and weekend timings for courses at Corvit.",
+    "url": "https://corvit.com/systems/wp-content/uploads/2026/09/Lahore-Sep-2026.png",
+    "trigger_keywords": ["schedule", "timetable", "timings", "batch", "classes", "time", "when", "dates"],
+    "preview_caption": "Corvit Systems Latest Batch Schedule"
+  },
+  {
+    "id": "fee_chart",
+    "title": "Corvit Systems Fee Flyer",
+    "description": "Official visual fee flyer and promotional bundles for Corvit courses.",
+    "url": "https://corvit.com/systems/wp-content/uploads/2026/07/Lahore-Fee-2026.png",
+    "trigger_keywords": ["fee", "fees", "cost", "price", "pricing", "charges", "discount", "promo"],
+    "preview_caption": "Corvit Systems Official Fee Structure"
+  },
+  {
+    "id": "campus_labs",
+    "title": "Campus Labs & Facilities",
+    "description": "Photograph of Corvit Systems campus, hardware equipment, and student computer lab infrastructure at Zarwar Center, Rawalpindi.",
+    "url": "https://corvit.com/systems/wp-content/uploads/2023/04/photo_2020-07-28_20-01-38.jpg",
+    "trigger_keywords": ["lab", "labs", "campus", "facility", "infrastructure", "hardware", "classroom", "location"],
+    "preview_caption": "Corvit Systems Enterprise Labs & Campus"
+  },
+  {
+    "id": "ccna_flyer",
+    "title": "CCNA Training & Free Linux Bundle Flyer",
+    "description": "Promotional banner detailing the Cisco CCNA program with bundled Free RHCSA Linux training.",
+    "url": "https://corvit.com/systems/wp-content/uploads/2023/04/sCCNA.png",
+    "trigger_keywords": ["ccna", "cisco", "rhcsa", "linux promo", "networking course"],
+    "preview_caption": "CCNA + Free Linux Bundle at Corvit"
+  },
+  {
+    "id": "training_modes",
+    "title": "Modes of Training (Classroom, Online, 1-on-1)",
+    "description": "Visual diagram outlining the flexible delivery modes at Corvit Systems.",
+    "url": "https://corvit.com/systems/wp-content/uploads/2023/03/class-room-mode.png",
+    "trigger_keywords": ["mode", "online", "physical", "classroom", "one to one", "remote"],
+    "preview_caption": "Flexible Learning Modes at Corvit"
+  }
+]

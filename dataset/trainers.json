@@ -1,0 +1,334 @@
+[
+  {
+    "id": 1,
+    "name": "Kashif ul Haq",
+    "qualification": "B.Sc Electrical Engineering",
+    "certifications": [
+      "CCIE (Service Provider)",
+      "CCIE (Routing and Switching)",
+      "CCIE (Voice) exam",
+      "CCIE (Security)",
+      "CCNP",
+      "CVOICE",
+      "CCNA",
+      "CCDA",
+      "MCP",
+      "JNCIA-EX",
+      "JNCIS-ES",
+      "PMP"
+    ],
+    "specialization": "Enterprise Routing, Switching, Service Provider Networks, Project Management (PMP)"
+  },
+  {
+    "id": 2,
+    "name": "Haroon Ahmad Malik",
+    "role": "CEO - Corvit Systems & Lead Networking Instructor",
+    "qualification": "M.Sc Computer Sciences, B.Sc Electrical Engineering",
+    "certifications": [
+      "CCIE (Data Center)",
+      "CCIE (Service Provider)",
+      "CCIE (Routing and Switching)",
+      "CCIE (Security)",
+      "CCIE (Voice) exam",
+      "CCIE (Collaboration) exam",
+      "CCIE (Wireless) exam",
+      "JNCIP",
+      "CCNP",
+      "CVOICE",
+      "CCNA",
+      "MCSE",
+      "JNCIA-EX",
+      "JNCIS-ES",
+      "JNCIA-ER",
+      "JNCIS-ER",
+      "CEHv10"
+    ],
+    "specialization": "Quad CCIE, Cisco Enterprise Networks, Data Center Virtualization, Juniper Networks, Executive Mentorship"
+  },
+  {
+    "id": 3,
+    "name": "Muhammad Ahsan Malik",
+    "qualification": "M.Sc (S & AW), B.Sc Electrical Engineering",
+    "certifications": [
+      "CCIE (Routing & Switching)",
+      "CCIE (Data Center)",
+      "CCIE (Security)",
+      "CCIE (Collaboration) exam",
+      "CCIE (Service Provider) exam",
+      "HCIE (Routing & Switching)",
+      "JNCIP (SP)",
+      "JNCIS",
+      "Huawei Certified Instructor"
+    ],
+    "specialization": "Cisco CCIE, Huawei HCIE, Ethical Hacking (CEH), Next-Gen Firewalls (Fortinet & Palo Alto)"
+  },
+  {
+    "id": 4,
+    "name": "Hasnain Ahmad Malik",
+    "qualification": "B.Sc Electrical Engineering",
+    "certifications": [
+      "CCIE (Service Provider)",
+      "CCIE (Data Center)",
+      "CCIE (R&S) exam",
+      "CCIE (Security) exam",
+      "CCNP",
+      "CCNA",
+      "Cisco Certified Instructor",
+      "HCIE (Routing & Switching)",
+      "HCDP",
+      "JNCIS-M/T",
+      "JNCIS-ER",
+      "JNCIA-EX",
+      "JNCIA-ER",
+      "Huawei Certified Instructor"
+    ],
+    "specialization": "Service Provider Architecture, Data Center Networks, Huawei Technologies"
+  },
+  {
+    "id": 5,
+    "name": "Tauseef Amjad Latif",
+    "qualification": "B.Sc Electrical Engineering",
+    "certifications": [
+      "CISSP",
+      "CISM",
+      "CISA",
+      "PMP",
+      "C|EH",
+      "ISA/IEC 62443 Cybersecurity Specialist",
+      "Cisco Certified Security Solutions & Design Specialist",
+      "HCIA-Security",
+      "Palo Alto Accredited Configuration Engineer",
+      "Palo Alto Networks Accredited Systems Engineer",
+      "Fortinet NSE3 Network Security Associate",
+      "ISO 27001 Certified Lead Auditor",
+      "ISO 20000 Certified Lead Auditor",
+      "ISO 22301 Certified Lead Auditor",
+      "AWS Certified Solutions Architect - Associate",
+      "ITIL Foundation Certified"
+    ],
+    "specialization": "Cybersecurity Governance, Information Security Audit (CISA/CISM/CISSP), Enterprise Security Architecture, ISO Standards"
+  },
+  {
+    "id": 6,
+    "name": "Khurram Abbas Shamsi",
+    "qualification": "M.Sc Computer Sciences, B.Sc Electrical Engineering",
+    "certifications": [
+      "CWLSS",
+      "ASAM",
+      "CSE",
+      "CCNA",
+      "MCP",
+      "HCIE-R&S exam",
+      "HCIP-R&S",
+      "HCIA-R&S",
+      "HCIA-Cloud",
+      "HCIA-AI",
+      "HCIA-Security"
+    ],
+    "specialization": "Huawei AI & Cloud Infrastructure, Huawei Routing & Switching, Wireless Systems"
+  },
+  {
+    "id": 7,
+    "name": "Muhammad Asif Shafiq",
+    "qualification": "BCS, Microsoft Certified Trainer (MCT)",
+    "certifications": [
+      "VMware Certified Professional (VCP)",
+      "Server Virtualization with Windows Server Hyper-V and System Center Specialist",
+      "MCSA",
+      "MCP",
+      "MCSE (Server Infrastructure, SharePoint, Private Cloud)",
+      "Exchange 2003-2016",
+      "SolarWinds Certified Professional",
+      "Palo Alto Accredited Configuration Engineer (ACE)"
+    ],
+    "specialization": "Microsoft Server Infrastructure, VMware vSphere Virtualization, Hyper-V, Enterprise Active Directory"
+  },
+  {
+    "id": 8,
+    "name": "Hafiz Inam Ul Haq Siddiqui",
+    "qualification": "B.S Computer Science",
+    "certifications": [
+      "HCIE (R&S)",
+      "CEH",
+      "HCIA (Security)",
+      "HCIP (R&S)",
+      "HCIA (R&S)",
+      "NSE-1, NSE-2, NSE-3",
+      "ISO/IEC 27001 Security Associate",
+      "Certified Network Security Specialist"
+    ],
+    "specialization": "Huawei HCIE Routing & Switching, Ethical Hacking, Network Security"
+  },
+  {
+    "id": 9,
+    "name": "Muhammad Talha Nazir",
+    "qualification": "Bachelor in Science",
+    "certifications": [
+      "Certified Google Search Ads Expert",
+      "Certified Digital Marketer (HubSpot)",
+      "Digital Marketing & Graphic Designer",
+      "WordPress Developer"
+    ],
+    "specialization": "Search Engine Optimization (SEO, AEO, GEO), Google Ads, Digital Marketing, Graphic Design & Video Editing"
+  },
+  {
+    "id": 10,
+    "name": "Muhammad Rizwan",
+    "qualification": "BS Software Engineering",
+    "certifications": [
+      "Machine Learning Engineer",
+      "Full Stack Developer (MEAN, .NET)",
+      "Data Analyst & Data Science Expert",
+      "Computer Vision & NLP Specialist",
+      "Android Developer"
+    ],
+    "specialization": "Artificial Intelligence, Machine Learning, Deep Learning, Computer Vision, Natural Language Processing, Full Stack Development"
+  },
+  {
+    "id": 11,
+    "name": "Malik Maaz Mehboob",
+    "qualification": "B.Sc Computer Sciences",
+    "certifications": [
+      "MCP",
+      "MCSA",
+      "CCNA",
+      "Security+",
+      "C|EH",
+      "CHFI",
+      "Sun Solaris",
+      "OLCA",
+      "RHCT",
+      "RHCE",
+      "RHCVA"
+    ],
+    "specialization": "Red Hat Linux Administration (RHCE), Cyber Security, Digital Forensics (CHFI), Sun Solaris"
+  },
+  {
+    "id": 12,
+    "name": "Abdul Waheed",
+    "qualification": "B.Sc Computer Sciences",
+    "certifications": [
+      "CCIE (Routing & Switching)",
+      "CCIE (Service Provider)",
+      "CCNP",
+      "CCNA",
+      "CCSP",
+      "CVOICE",
+      "MCSE",
+      "JNCIA-EX",
+      "JNCIS-ES",
+      "JNCIA-ER",
+      "JNCIS-ER"
+    ],
+    "specialization": "Dual CCIE, Enterprise Cisco Routing & Switching, Juniper Networks"
+  },
+  {
+    "id": 13,
+    "name": "Muhammad Faran Tahir",
+    "qualification": "Master of Science (Computer Science)",
+    "certifications": [
+      "AZ-104 (Microsoft Azure Administrator Associate)",
+      "CCNA & CCNP (Routing & Switching)",
+      "RHCSA (CentOS/RedHat)",
+      "HCNA & HCNP (Routing & Switching)",
+      "FTD Firewall"
+    ],
+    "specialization": "Microsoft Azure Cloud, Linux System Administration, Cisco Enterprise Routing"
+  },
+  {
+    "id": 14,
+    "name": "Muhammad Asfand Naveed",
+    "qualification": "BS Computer Science",
+    "certifications": [
+      "Flutter Mobile Application Developer"
+    ],
+    "specialization": "Cross-Platform Mobile App Development with Flutter & Dart, Firebase Integration"
+  },
+  {
+    "id": 15,
+    "name": "Muhammad Mubeen",
+    "qualification": "Bachelor Science Computer Science",
+    "certifications": [
+      "HCIA, HCIP, HCIE",
+      "CCNA, CCNP"
+    ],
+    "specialization": "Huawei Technologies (HCIE), Cisco Systems"
+  },
+  {
+    "id": 16,
+    "name": "Subhan Ahmad Malik",
+    "qualification": "B.Sc Electrical Engineering",
+    "certifications": [
+      "Microsoft Azure Certified",
+      "AWS Certified",
+      "DevOps Certified",
+      "HCIA, HCIP",
+      "Fortinet NGF"
+    ],
+    "specialization": "DevOps Engineering, AWS Cloud, Microsoft Azure, Containerization (Docker/Kubernetes)"
+  },
+  {
+    "id": 17,
+    "name": "Muhammad Qasim",
+    "qualification": "BS Computer Science",
+    "certifications": [
+      "CCIE (R&S)",
+      "CCNP (R&S)",
+      "CCNA (R&S)",
+      "MCSE"
+    ],
+    "specialization": "Cisco CCIE Routing & Switching, Enterprise Networking, Windows Server"
+  },
+  {
+    "id": 18,
+    "name": "Muhammad Usama Sharaf",
+    "qualification": "B.Sc Electrical Engineering",
+    "certifications": [
+      "Microsoft Azure Artificial Intelligence 900",
+      "Huawei BigData Analytics",
+      "KNIME Data Analytics",
+      "PIAIC - Artificial Intelligence"
+    ],
+    "specialization": "Azure AI, Big Data Analytics, Machine Learning"
+  },
+  {
+    "id": 19,
+    "name": "Kashif Hussain",
+    "qualification": "B.Sc Computer Sciences",
+    "certifications": [
+      "CCIE (Data Center)",
+      "CCIE (Security) exam",
+      "CCIE (Collaboration) exam",
+      "HCIE (Routing & Switching)",
+      "HCNP, HCNA",
+      "SolarWinds Certified Professional",
+      "Palo Alto Accredited Engineer",
+      "Cisco Certified Academy Instructor",
+      "Huawei Certified Instructor"
+    ],
+    "specialization": "Cisco Data Center & Security, Huawei HCIE, Palo Alto Firewalls"
+  },
+  {
+    "id": 20,
+    "name": "Muhammad Iqbal",
+    "qualification": "BS Computer Science",
+    "certifications": [
+      "Full Stack Web Developer"
+    ],
+    "specialization": "HTML, CSS, JavaScript (ES6+), React, Redux, Node.js, Express, Python (Django, Flask), PHP, PostgreSQL, MySQL"
+  },
+  {
+    "id": 21,
+    "name": "Muhammad Kamran Khan",
+    "qualification": "M.Sc Information Technology",
+    "certifications": [
+      "Model Context Protocol (Advanced Level)",
+      "Artificial Intelligence (ML & DL)",
+      "Generative AI Certified Professional",
+      "Oracle Cloud Infrastructure",
+      "Deep Learning with TensorFlow",
+      "Huawei Certified ICT Associate"
+    ],
+    "specialization": "Generative AI, Large Language Model Systems, Agentic AI, Deep Learning, Published IEEE AI Researcher"
+  }
+]

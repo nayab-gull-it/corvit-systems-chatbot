@@ -1,0 +1,90 @@
+{
+  "institution_name": "Corvit Systems Rawalpindi",
+  "parent_organization": "Corvit Systems (Pvt) Ltd.",
+  "tagline": "Best IT Training Institute in Rawalpindi & Islamabad",
+  "website": "https://corvit.com/systems",
+  "established_years": "Over 23 years of national excellence (established ~2000)",
+  "leadership": {
+    "ceo": "Haroon Ahmad Malik",
+    "role": "CEO & Lead Trainer, Quad CCIE, M.Sc Computer Sciences",
+    "rawalpindi_management": "Corvit Systems Rawalpindi Branch Management & Certified Faculty"
+  },
+  "rawalpindi_campus": {
+    "name": "Corvit Systems Rawalpindi (RWP)",
+    "address": "2nd Floor, Zarwar Center, Main Murree Road, 6th Road Stop, Block A, Satellite Town, Rawalpindi, Punjab, Pakistan",
+    "city": "Rawalpindi",
+    "region": "Twin Cities (Rawalpindi / Islamabad)",
+    "landmark": "Near 6th Road Metro Bus Station, Main Murree Road",
+    "google_maps": "https://maps.google.com/?q=Corvit+Systems+Rawalpindi+Zarwar+Center",
+    "opening_hours": "Monday - Saturday: 09:00 AM - 09:00 PM (Closed on Sunday)"
+  },
+  "branches": [
+    {
+      "city": "Rawalpindi",
+      "address": "2nd Floor, Zarwar Center, Main Murree Road, 6th Road Stop, Satellite Town, Rawalpindi",
+      "status": "Primary Campus (RWP / Islamabad Hub)"
+    },
+    {
+      "city": "Lahore",
+      "address": "11A-D1, Ghalib Road, Gulberg III, Lahore",
+      "status": "Central / Head Campus"
+    }
+  ],
+  "contact": {
+    "landline_1": "(051) 4928004",
+    "landline_2": "(051) 4928005",
+    "landline_3": "(051) 4928006",
+    "mobile_whatsapp": "+92-311-1444473",
+    "whatsapp_display": "0311-1444473",
+    "email": "rwp@corvit.com",
+    "central_email": "info@corvit.com"
+  },
+  "social_media": {
+    "facebook": "https://www.facebook.com/corvittraining",
+    "instagram": "https://www.instagram.com/corvitsystemslahore/",
+    "youtube": "https://www.youtube.com/c/CorvitSystemslhr",
+    "linkedin": "https://www.linkedin.com/in/corvit-systems-b57838b1/"
+  },
+  "infrastructure_and_labs": {
+    "hardware_labs": "State-of-the-art live enterprise hardware labs at Zarwar Center Rawalpindi equipped with Cisco enterprise routers, switches, multi-vendor firewalls (Palo Alto, Fortinet), high-end virtualization servers, and modern student workstations.",
+    "cloud_and_virtual_labs": "Dedicated virtualized environments, VMware vSphere racks, AWS and Azure cloud sandboxes, and 24/7 remote lab access for online and hybrid learners in the Twin Cities.",
+    "learning_environment": "Modern air-conditioned multimedia classrooms, high-speed fiber internet, and interactive audio-visual setups for physical and live hybrid interactive sessions."
+  },
+  "key_statistics": {
+    "experience": "23+ years",
+    "satisfaction_rate": "92%+ ranked Excellent or Very Good",
+    "alumni_executives": "Over 7,000+ corporate executives and students trained across Pakistan",
+    "corporate_clients": "600+ top-tier corporate organizations and government ministries in Islamabad & Rawalpindi",
+    "international_reach": "Alumni working in telecom, defense, banking, multinational IT, and international markets"
+  },
+  "accreditations_and_partnerships": [
+    "Cisco Certified Academy / Learning Track",
+    "Huawei Certified Learning Partner",
+    "AXELOS Certified Partner",
+    "ACQUIROS Accredited Training Organization (ATO)",
+    "PMI (Project Management Institute) Global Registered Education Provider (REP)",
+    "PECB Certified Partner",
+    "itSMF (IT Service Management Forum) Member",
+    "SEI (Software Engineering Institute) Partner for CMMI",
+    "PSEB (Pakistan Software Export Board) Partner",
+    "NAVTTC (National Vocational and Technical Training Commission) Official Partner in Rawalpindi & Islamabad"
+  ],
+  "modes_of_training": [
+    {
+      "mode": "Classroom Training (Rawalpindi)",
+      "description": "Interactive instructor-led physical classes with direct access to physical hardware racks and in-person mentorship at Zarwar Center, 6th Road, Rawalpindi."
+    },
+    {
+      "mode": "Online / E-Learning",
+      "description": "Live interactive instructor-led classes via Zoom/Teams with remote lab access, lecture recordings, and digital study resources for remote students."
+    },
+    {
+      "mode": "One-To-One Training",
+      "description": "Dedicated personalized coaching tailored to executive schedules, exam preparations, or specialized technical goals."
+    },
+    {
+      "mode": "Corporate On-Site (Islamabad & Rawalpindi)",
+      "description": "Customized enterprise training delivered directly at client corporate headquarters or government ministries in Rawalpindi/Islamabad."
+    }
+  ]
+}

@@ -1,0 +1,434 @@
+{
+  "categories": [
+    {
+      "id": "cisco_networking",
+      "name": "Cisco Networking & Infrastructure",
+      "description": "Enterprise routing, switching, data center, and network automation training tracks leading to globally valued Cisco certifications.",
+      "courses": [
+        {
+          "code": "CCNA",
+          "title": "Cisco Certified Network Associate (CCNA 200-301)",
+          "level": "Associate / Beginner to Intermediate",
+          "prerequisites": "Basic computer literacy; no prior networking experience strictly required.",
+          "target_audience": "Prospective network engineers, system admins, IT support staff, and fresh graduates.",
+          "key_topics": [
+            "Network fundamentals (OSI, TCP/IP, IP addressing & subnetting IPv4/IPv6)",
+            "Network access, VLANs, trunking, and EtherChannel",
+            "IP connectivity, OSPF routing, routing tables, and gateway redundancy",
+            "IP services (DHCP, DNS, NAT, SNMP, NTP)",
+            "Security fundamentals (port security, ACLs, wireless security)",
+            "Automation, programmability, REST APIs, and software-defined networking"
+          ],
+          "modes": ["Classroom (Rawalpindi)", "Online Live"],
+          "special_promo": "Includes Free RHCSA (Red Hat Linux) training bundle."
+        },
+        {
+          "code": "CCNP",
+          "title": "Cisco Certified Network Professional (CCNP Enterprise)",
+          "level": "Professional / Advanced",
+          "prerequisites": "CCNA knowledge or 1-2 years networking experience.",
+          "target_audience": "Senior network engineers, network administrators, and system architects.",
+          "key_topics": [
+            "Enterprise core technologies (ENCOR 350-401)",
+            "Advanced routing (BGP, advanced OSPF, EIGRP, route manipulation)",
+            "Enterprise wireless architectures, QoS, and high availability",
+            "Network security, VPNs (DMVPN, IPsec), and segmentation",
+            "SD-Access, SD-WAN, and Cisco DNA Center automation with Python"
+          ],
+          "modes": ["Classroom (Rawalpindi)", "Online Live"]
+        },
+        {
+          "code": "CCIE",
+          "title": "Cisco Certified Internetwork Expert (CCIE Enterprise / Data Center / Security)",
+          "level": "Expert / Highest Level",
+          "prerequisites": "Substantial enterprise networking background and CCNP-level proficiency.",
+          "target_audience": "Principal network engineers, senior solutions architects, and technical directors.",
+          "key_topics": [
+            "Complex enterprise infrastructure design, deployment, and optimization",
+            "Software-defined infrastructure and programmable networks",
+            "Multi-protocol routing architectures, MPLS, and deep troubleshooting",
+            "Hands-on mock lab scenarios aligned with the 8-hour CCIE lab exam"
+          ],
+          "modes": ["Classroom (Rawalpindi)", "Online Live", "1-on-1 Mentorship"]
+        }
+      ]
+    },
+    {
+      "id": "huawei_technologies",
+      "name": "Huawei Enterprise Networking",
+      "description": "Comprehensive routing, switching, and wireless certification tracks aligned with Huawei's enterprise ecosystem.",
+      "courses": [
+        {
+          "code": "HCIA-RS",
+          "title": "HCIA Routing & Switching (Datacom)",
+          "level": "Associate",
+          "key_topics": ["Data communication basics", "VRP operating system", "Routing protocols (OSPF, RIP)", "Ethernet switching", "WLAN fundamentals", "Network security & management"]
+        },
+        {
+          "code": "HCIP-RS",
+          "title": "HCIP Routing & Switching (Datacom)",
+          "level": "Professional",
+          "key_topics": ["Advanced routing protocols (OSPF, IS-IS, BGP)", "Route control & policy", "MPLS & MPLS VPN", "Multicast", "QoS and network reliability features"]
+        },
+        {
+          "code": "HCIE-RS",
+          "title": "HCIE Routing & Switching",
+          "level": "Expert",
+          "key_topics": ["Complex large-scale network architecture", "Enterprise SD-WAN", "Troubleshooting complex network faults", "Lab exam preparation"]
+        },
+        {
+          "code": "HCNA-WLAN",
+          "title": "HCNA / HCIA WLAN (Wireless LAN)",
+          "level": "Associate",
+          "key_topics": ["Radio frequency principles", "WLAN architecture and AC/AP configuration", "Wireless security and roaming", "Troubleshooting enterprise wireless"]
+        }
+      ]
+    },
+    {
+      "id": "cyber_security",
+      "name": "Cyber Security & Information Assurance",
+      "description": "Offensive and defensive cybersecurity certifications accredited by EC-Council, ISACA, and ISC2.",
+      "courses": [
+        {
+          "code": "CEH",
+          "title": "Certified Ethical Hacker (CEH v10/v12)",
+          "instructor": "Muhammad Ahsan Malik",
+          "level": "Intermediate to Advanced",
+          "key_topics": [
+            "Footprinting and reconnaissance",
+            "Scanning networks and enumeration",
+            "Vulnerability analysis and system hacking",
+            "Malware threats, sniffers, social engineering, and DoS attacks",
+            "Web server & web application hacking (SQL injection, XSS)",
+            "Wireless security and cloud computing threats",
+            "Cryptography and penetration testing methodologies"
+          ],
+          "modes": ["Classroom (Rawalpindi)", "Online Live"]
+        },
+        {
+          "code": "CCT",
+          "title": "Certified Cybersecurity Technician (EC-Council CCT)",
+          "level": "Foundational / Entry Level",
+          "key_topics": ["Cyber security basics", "Network defense essentials", "Incident response fundamentals", "Basic digital forensics"]
+        },
+        {
+          "code": "CND",
+          "title": "Certified Network Defender (CND)",
+          "level": "Intermediate",
+          "key_topics": ["Defensive network security", "Firewall and IDS/IPS configuration", "Network traffic monitoring", "Vulnerability management and response"]
+        },
+        {
+          "code": "CHFI",
+          "title": "Computer Hacking Forensic Investigator (CHFI)",
+          "level": "Advanced",
+          "key_topics": ["Digital forensics investigation process", "Evidence acquisition and disk imaging", "Investigating file systems, memory, and registry", "Network, database, and cloud forensics", "Legal procedures and report drafting"]
+        },
+        {
+          "code": "CPENT",
+          "title": "Certified Penetration Testing Professional (CPENT)",
+          "level": "Advanced",
+          "key_topics": ["Advanced penetration testing methodologies", "Penetrating enterprise IoT and OT environments", "Bypassing defenses and pivoting", "Exploit writing and binary analysis"]
+        },
+        {
+          "code": "ECIH",
+          "title": "EC-Council Certified Incident Handler (ECIH)",
+          "level": "Intermediate to Advanced",
+          "key_topics": ["Incident handling & response lifecycles", "Malware, email, and insider incident handling", "Cloud and web application incidents", "Forensic readiness and disaster containment"]
+        },
+        {
+          "code": "CSA",
+          "title": "Certified SOC Analyst (CSA)",
+          "level": "Intermediate",
+          "key_topics": ["Security Operations Center (SOC) operations", "SIEM event correlation (Splunk, ELK, QRadar)", "Incident response playbooks", "Log analysis and threat mitigation"]
+        },
+        {
+          "code": "CTIA",
+          "title": "Certified Threat Intelligence Analyst (CTIA)",
+          "level": "Advanced",
+          "key_topics": ["Threat intelligence lifecycle", "Cyber threat hunting and intelligence gathering", "STIX/TAXII standards", "Actionable threat reporting"]
+        },
+        {
+          "code": "CCSE",
+          "title": "Certified Cloud Security Engineer",
+          "level": "Advanced",
+          "key_topics": ["Cloud architecture security", "Securing AWS, Azure, and Google Cloud environments", "Identity and access management (IAM)", "Cloud regulatory compliance"]
+        },
+        {
+          "code": "ECDE",
+          "title": "Certified DevSecOps Engineer (E|CDE)",
+          "level": "Advanced",
+          "key_topics": ["Securing DevOps pipelines", "Static (SAST) and dynamic (DAST) analysis", "Infrastructure as Code (IaC) security", "Container and Kubernetes security"]
+        },
+        {
+          "code": "EDRP",
+          "title": "Disaster Recovery Professional (E|DRP)",
+          "level": "Intermediate",
+          "key_topics": ["Business continuity planning", "Disaster recovery risk assessments", "Data backup, replication, and off-site storage", "BC/DR testing and drills"]
+        },
+        {
+          "code": "CCISO",
+          "title": "Certified Chief Information Security Officer (C|CISO)",
+          "level": "Executive / Leadership",
+          "key_topics": ["Governance & risk management", "Information security controls and audit", "Strategic planning and finance", "Enterprise security program management"]
+        },
+        {
+          "code": "CISSP",
+          "title": "Certified Information Systems Security Professional (CISSP)",
+          "level": "Expert / Senior",
+          "key_topics": ["Security and risk management", "Asset security", "Security architecture and engineering", "Communication and network security", "IAM, security assessment, and software development security"]
+        },
+        {
+          "code": "CISA",
+          "title": "Certified Information Systems Auditor (CISA)",
+          "level": "Senior / Audit",
+          "key_topics": ["Information systems auditing process", "Governance and management of IT", "Information systems acquisition, development, and implementation", "Information asset protection"]
+        },
+        {
+          "code": "FIREWALLS",
+          "title": "Next-Generation Firewalls: Palo Alto & Fortinet (NSE-4)",
+          "instructor": "Muhammad Ahsan Malik",
+          "level": "Intermediate to Advanced",
+          "key_topics": [
+            "Fortinet FortiGate deployment, firewall policies, NAT, and routing",
+            "Fortinet SSL VPN, IPsec VPN, and high availability (HA)",
+            "Palo Alto PAN-OS architecture and App-ID, User-ID, Content-ID",
+            "Decryption, Threat Prevention, WildFire sandbox analysis",
+            "Security policy optimization and troubleshooting"
+          ],
+          "modes": ["Classroom (Rawalpindi)", "Online Live"]
+        }
+      ]
+    },
+    {
+      "id": "cloud_and_devops",
+      "name": "Cloud Computing & DevOps",
+      "description": "Scalable cloud infrastructure, automation, CI/CD pipelines, containerization, and cloud security.",
+      "courses": [
+        {
+          "code": "AWS-SAA",
+          "title": "AWS Certified Solutions Architect – Associate",
+          "level": "Intermediate",
+          "key_topics": ["EC2, VPC, S3, IAM, Route53, RDS, DynamoDB", "Auto Scaling and Elastic Load Balancing", "High availability and fault tolerance design", "AWS serverless (Lambda, API Gateway) and cost optimization"]
+        },
+        {
+          "code": "AWS-SAP",
+          "title": "AWS Certified Solutions Architect – Professional",
+          "level": "Advanced",
+          "key_topics": ["Complex multi-tier enterprise architecture", "Multi-account AWS Organizations & Control Tower", "Hybrid cloud connectivity (Direct Connect, Transit Gateway)", "Large-scale cloud migrations"]
+        },
+        {
+          "code": "AZ-104",
+          "title": "Microsoft Azure Administrator (AZ-104)",
+          "level": "Intermediate",
+          "key_topics": ["Azure identities and governance (Azure AD/Entra ID)", "Azure compute, virtual machines, and App Services", "Virtual networking and hybrid connectivity (VPN, ExpressRoute)", "Azure Storage and monitoring"]
+        },
+        {
+          "code": "DEVOPS",
+          "title": "DevOps Engineering & Automation",
+          "instructor": "Subhan Ahmad Malik",
+          "level": "Intermediate to Advanced",
+          "key_topics": [
+            "Linux shell scripting and Git version control",
+            "Docker containerization and container lifecycle management",
+            "Kubernetes orchestration (pods, services, deployments, ingress, Helm)",
+            "CI/CD with Jenkins and GitLab CI",
+            "Infrastructure as Code (IaC) with Terraform and Ansible",
+            "Monitoring with Prometheus and Grafana"
+          ],
+          "special_promo": "Free AWS Cloud module bundled with DevOps training."
+        },
+        {
+          "code": "AWS-DEV",
+          "title": "AWS Certified DevOps Engineer",
+          "level": "Advanced",
+          "key_topics": ["Continuous delivery and automation on AWS (CodePipeline, CodeBuild, CodeDeploy)", "CloudFormation and AWS CDK", "Automated monitoring and incident recovery", "Security automation and compliance"]
+        },
+        {
+          "code": "AZ-400",
+          "title": "Microsoft Azure DevOps (AZ-400)",
+          "level": "Advanced",
+          "key_topics": ["Azure Repos, Azure Pipelines, and Azure Artifacts", "Site reliability engineering (SRE) strategies", "Security and compliance integration in Azure pipelines"]
+        }
+      ]
+    },
+    {
+      "id": "artificial_intelligence",
+      "name": "Artificial Intelligence & Data Science",
+      "description": "Cutting-edge AI engineering, Machine Learning, Deep Learning, Agentic AI, Computer Vision, and NLP.",
+      "courses": [
+        {
+          "code": "AGENTIC-AI",
+          "title": "Agentic AI & LLM Systems Development",
+          "instructor": "Muhammad Kamran Khan / Muhammad Rizwan",
+          "level": "Intermediate to Advanced",
+          "schedule_note": "Weekend batches (Saturdays & Sundays @ 4:00 PM Onwards)",
+          "key_topics": [
+            "Generative AI, Large Language Models (LLMs), and prompt engineering",
+            "LangChain, LlamaIndex, and multi-agent coordination frameworks (AutoGen, CrewAI)",
+            "Model Context Protocol (MCP) and tool use integration",
+            "Retrieval-Augmented Generation (RAG) with vector databases (Pinecone, ChromaDB, Qdrant)",
+            "Autonomous agent workflows, self-reflection, and tool-calling execution",
+            "Production deployment, latency optimization, and guardrails"
+          ],
+          "modes": ["Classroom (Rawalpindi)", "Online Live"]
+        },
+        {
+          "code": "AI-ML-DL",
+          "title": "Artificial Intelligence (Machine Learning & Deep Learning)",
+          "instructor": "Muhammad Rizwan / Muhammad Kamran Khan",
+          "level": "Beginner to Advanced",
+          "key_topics": [
+            "Python programming for Data Science (NumPy, Pandas, Matplotlib)",
+            "Supervised and unsupervised machine learning algorithms (Scikit-Learn)",
+            "Deep learning architectures (Neural Networks, CNNs, RNNs, Transformers)",
+            "Frameworks: TensorFlow and PyTorch",
+            "Computer Vision & NLP real-world projects",
+            "Model training, evaluation, hyperparameter tuning, and deployment"
+          ]
+        },
+        {
+          "code": "AI-ROBOTICS",
+          "title": "Artificial Intelligence Robotics",
+          "level": "Intermediate",
+          "key_topics": ["Robotics Operating System (ROS)", "Embedded AI computing", "Sensor integration, computer vision for navigation", "Autonomous robotics control algorithms"]
+        },
+        {
+          "code": "ADV-PYTHON",
+          "title": "Advanced Python for AI & Automation",
+          "level": "Beginner to Intermediate",
+          "key_topics": ["Object-oriented programming in Python", "Data structures and algorithms", "Multithreading, asynchronous programming", "API development with FastAPI/Flask", "Automation scripting"]
+        }
+      ]
+    },
+    {
+      "id": "systems_and_os",
+      "name": "Operating Systems & Systems Administration",
+      "description": "Enterprise Linux administration, Windows Server, and virtualization infrastructure.",
+      "courses": [
+        {
+          "code": "RHCSA",
+          "title": "Red Hat Certified System Administrator (RHCSA)",
+          "instructor": "Haroon Ahmad Malik",
+          "level": "Associate",
+          "key_topics": ["Linux command line, file systems, permissions", "User and group management, storage administration (LVM)", "Systemd services, networking, SSH, and firewalld", "SELinux security controls and package management (RPM/DNF)"],
+          "special_promo": "Offered FREE when enrolled in the CCNA program."
+        },
+        {
+          "code": "RHCE",
+          "title": "Red Hat Certified Engineer (RHCE)",
+          "level": "Professional",
+          "key_topics": ["Ansible automation for Linux administration", "Writing playbooks, roles, and inventory management", "Automated system deployment, patching, and configuration management"]
+        },
+        {
+          "code": "MCSE",
+          "title": "Microsoft Certified Solutions Expert (MCSE)",
+          "instructor": "Muhammad Asif Shafiq",
+          "level": "Professional",
+          "key_topics": ["Windows Server 2016/2019/2022 administration", "Active Directory Domain Services (AD DS)", "Group policies, DNS, DHCP, and storage spaces", "Hyper-V server virtualization and clustering"]
+        },
+        {
+          "code": "VMWARE-VCP",
+          "title": "VMware vSphere: Data Center Virtualization (VCP-DCV)",
+          "instructor": "Muhammad Asif Shafiq",
+          "level": "Professional",
+          "key_topics": ["VMware ESXi installation and configuration", "vCenter Server management", "vSphere standard & distributed switches", "Storage (vSAN, VMFS, NFS)", "vSphere HA, DRS, and vMotion"]
+        }
+      ]
+    },
+    {
+      "id": "development_and_digital",
+      "name": "Software Development & Digital Marketing",
+      "description": "Full stack web development, mobile apps, digital marketing, and search optimization.",
+      "courses": [
+        {
+          "code": "WEB-DEV",
+          "title": "Full Stack Web Development",
+          "instructor": "Muhammad Iqbal",
+          "level": "Beginner to Advanced",
+          "key_topics": [
+            "Frontend: HTML5, CSS3, JavaScript (ES6+), Bootstrap, React.js",
+            "Backend: Node.js, Express.js, Python Django / Flask, PHP",
+            "Databases: PostgreSQL, MySQL, MongoDB",
+            "RESTful API design, authentication (JWT), and cloud hosting"
+          ]
+        },
+        {
+          "code": "MOBILE-APP",
+          "title": "Mobile App Development with Flutter",
+          "instructor": "Muhammad Asfand Naveed",
+          "level": "Beginner to Intermediate",
+          "key_topics": [
+            "Dart programming language",
+            "Flutter UI widgets and layout systems",
+            "State management (Provider, Bloc)",
+            "Firebase integration, REST APIs, and publishing to Google Play Store & Apple App Store"
+          ]
+        },
+        {
+          "code": "SEO",
+          "title": "Search Engine Optimization (SEO) with AEO & GEO",
+          "instructor": "Muhammad Talha Nazir",
+          "level": "Beginner to Advanced",
+          "key_topics": [
+            "On-page, Off-page, and Technical SEO",
+            "Keyword research, search intent, and content optimization",
+            "Answer Engine Optimization (AEO) and Generative Engine Optimization (GEO)",
+            "Google Search Console, Google Analytics 4, and link building strategies",
+            "Local SEO and eCommerce optimization"
+          ]
+        },
+        {
+          "code": "GRAPHIC-DESIGN",
+          "title": "Graphic Designing & Video Editing",
+          "instructor": "Muhammad Talha Nazir",
+          "level": "Beginner to Intermediate",
+          "key_topics": [
+            "Adobe Photoshop (image retouching, digital art)",
+            "Adobe Illustrator (vector logos, branding, typography)",
+            "Adobe Premiere Pro (video editing, transitions, audio mixing)",
+            "Social media ad design and visual identity creation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "government_and_free",
+      "name": "Government Sponsored & Subsidized Programs",
+      "description": "100% Free technical training opportunities funded by federal and provincial bodies.",
+      "courses": [
+        {
+          "code": "NAVTTC",
+          "title": "NAVTTC Free Courses in Rawalpindi",
+          "sponsorship": "100% Free (Government Funded)",
+          "eligibility": "Pakistani youth / citizens meeting NAVTTC selection criteria (matric/intermediate/graduates).",
+          "key_programs": ["Artificial Intelligence (ML/DL)", "Cyber Security", "Cloud Computing", "Full Stack Web Development", "Summer of Code"],
+          "benefits": "Free tuition, free examination/certification, stipend as per policy, and hands-on lab training."
+        },
+        {
+          "code": "KAMYAB-JAWAN",
+          "title": "Prime Minister Youth Skill Development Program (PM-Kamyab Jawan)",
+          "sponsorship": "100% Free",
+          "key_programs": ["Artificial Intelligence Robotics", "Artificial Intelligence (ML/DL)", "Web & Mobile App Development", "Cloud Computing", "Cyber Security"]
+        },
+        {
+          "code": "AKHUWAT",
+          "title": "Akhuwat IT Trainings at Corvit",
+          "sponsorship": "Subsidized / Free IT Skill Empowerment",
+          "key_programs": ["Amazon Virtual Assistant (VA)", "Freelancing & Digital Skills"]
+        },
+        {
+          "code": "GIZ",
+          "title": "GIZ International Development Trainings",
+          "sponsorship": "Funded / Subsidized",
+          "key_programs": ["AWS Associate", "Graphic Designing & Video Editing"]
+        },
+        {
+          "code": "PSEB",
+          "title": "Pakistan Software Export Board (PSEB) IT Trainings",
+          "sponsorship": "Subsidized / Sponsored",
+          "key_programs": ["High-demand IT skill certification bootcamps"]
+        }
+      ]
+    }
+  ]
+}

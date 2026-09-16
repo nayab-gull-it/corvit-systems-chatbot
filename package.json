@@ -1,0 +1,13 @@
+{
+  "name": "corvit-chatbot",
+  "version": "1.0.0",
+  "description": "Corvit Systems Rawalpindi Chatbot Website with Netlify Functions & Groq AI",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 3000",
+    "dev": "netlify dev"
+  },
+  "keywords": ["corvit", "chatbot", "groq", "gpt-oss-120b", "netlify-functions", "tailwind"],
+  "author": "Corvit Systems",
+  "license": "ISC"
+}

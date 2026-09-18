@@ -13,3 +13,9 @@ npm-debug.log*
 # OS files
 .DS_Store
 Thumbs.db
+
+# Test scratch files
+test-*.js
+dataset/.env
+
+ LINKEDIN_LAUNCH_KIT.md

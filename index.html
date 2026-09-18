@@ -1003,7 +1003,7 @@
     </div>
 
     <!-- Circle Launcher -->
-    <button id="chat-launcher-btn" onclick="window.openCorvitChat &amp;&amp; window.openCorvitChat()" class="chat-beacon btn-float-glow w-14 h-14 rounded-full bg-corvit-red hover:bg-corvit-red-dark text-white flex items-center justify-center text-xl transition-transform active:scale-95 cursor-pointer" aria-label="Open Corvit AI Chatbot">
+    <button id="chat-launcher-btn" class="chat-beacon btn-float-glow w-14 h-14 rounded-full bg-corvit-red hover:bg-corvit-red-dark text-white flex items-center justify-center text-xl transition-transform active:scale-95 cursor-pointer shadow-2xl" aria-label="Open Corvit AI Chatbot" title="Open Corvit AI Chat">
       <i class="fa-solid fa-robot" id="chat-launcher-icon"></i>
     </button>
   </div>
@@ -1012,42 +1012,45 @@
   <div id="chatbot-widget" class="widget-closed fixed bottom-24 right-6 z-50 w-[410px] max-w-[95vw] h-[600px] max-h-[82vh] bg-white rounded-2xl shadow-2xl border border-slate-200/90 flex flex-col overflow-hidden">
     
     <!-- Widget Header -->
-    <div class="bg-gradient-to-r from-corvit-navy-dark via-corvit-navy to-slate-900 text-white p-4 flex items-center justify-between shadow-sm select-none">
-      <div class="flex items-center gap-3">
-        <div class="relative">
-          <div class="w-10 h-10 rounded-full bg-corvit-red/20 border border-corvit-red/40 flex items-center justify-center text-corvit-red text-lg">
+    <div class="bg-gradient-to-r from-corvit-navy-dark via-corvit-navy to-slate-900 text-white px-4 py-3 flex items-center justify-between shadow-sm select-none border-b border-white/10">
+      <div class="flex items-center gap-2.5 min-w-0 pr-2">
+        <div class="relative shrink-0">
+          <div class="w-9 h-9 rounded-full bg-corvit-red/20 border border-corvit-red/40 flex items-center justify-center text-corvit-red text-base">
             <i class="fa-solid fa-robot"></i>
           </div>
           <span class="absolute bottom-0 right-0 w-2.5 h-2.5 rounded-full bg-emerald-400 ring-2 ring-corvit-navy"></span>
         </div>
-        <div>
-          <h3 class="font-bold text-sm font-heading leading-tight flex items-center gap-1.5">
-            Corvit Rawalpindi AI
-            <span class="text-[10px] font-normal px-1.5 py-0.5 rounded bg-white/10 text-corvit-gold">RWP Advisor</span>
-          </h3>
-          <p class="text-[11px] text-slate-300">Zarwar Center, 6th Road Hub</p>
+        <div class="min-w-0">
+          <div class="flex items-center gap-1.5 flex-wrap">
+            <h3 class="font-bold text-sm font-heading leading-tight truncate">Corvit Rawalpindi AI</h3>
+            <span class="text-[9px] font-semibold px-1.5 py-0.5 rounded bg-white/10 text-corvit-gold uppercase tracking-wider shrink-0">RWP Advisor</span>
+          </div>
+          <p class="text-[11px] text-slate-300 flex items-center gap-1.5 truncate mt-0.5">
+            <span>6th Road Hub</span>
+            <span class="text-slate-500 text-[9px]">&bull;</span>
+            <span class="inline-flex items-center gap-1 text-emerald-400 font-mono text-[10px]" id="engine-status-pill" title="Tier 1: Groq 120B Flagship | Tier 2: Groq 20B Fast Fallback | Tier 3: Qwen 27B Backup | Tier 4: Grounded Dataset Engine">
+              <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse shrink-0"></span>
+              <span id="engine-status-text" class="truncate max-w-[130px]">Groq 120B Online</span>
+            </span>
+          </p>
         </div>
       </div>
       
       <!-- Widget Controls -->
-      <div class="flex items-center gap-1">
-        <div class="hidden sm:flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-emerald-500/15 border border-emerald-500/30 text-emerald-300 text-[10px] font-mono mr-1" id="engine-status-pill" title="Tier 1: Groq 120B Flagship | Tier 2: Groq 20B Fast Fallback | Tier 3: Qwen 27B Backup | Tier 4: Grounded Dataset Engine">
-          <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
-          <span id="engine-status-text">Groq 120B / Fallback Ready</span>
-        </div>
-        <button id="chat-expand-btn" class="p-1.5 text-slate-300 hover:text-white rounded-lg hover:bg-white/10 transition text-xs cursor-pointer" title="Expand to Wide Mode" aria-label="Toggle Fullscreen Width">
+      <div class="flex items-center gap-1 shrink-0">
+        <button id="chat-expand-btn" class="w-7 h-7 flex items-center justify-center text-slate-300 hover:text-white rounded-lg hover:bg-white/10 transition text-xs shrink-0 cursor-pointer" title="Expand to Wide Mode" aria-label="Toggle Fullscreen Width">
           <i class="fa-solid fa-up-right-and-down-left-from-center" id="expand-icon"></i>
         </button>
-        <button id="chat-export-btn" class="p-1.5 text-slate-300 hover:text-white rounded-lg hover:bg-white/10 transition text-xs cursor-pointer" title="Download Chat Summary" aria-label="Export Chat Transcript">
+        <button id="chat-export-btn" class="w-7 h-7 flex items-center justify-center text-slate-300 hover:text-white rounded-lg hover:bg-white/10 transition text-xs shrink-0 cursor-pointer" title="Download Chat Summary" aria-label="Export Chat Transcript">
           <i class="fa-solid fa-download"></i>
         </button>
-        <button id="chat-tts-toggle-btn" class="p-1.5 text-slate-300 hover:text-white rounded-lg hover:bg-white/10 transition text-xs cursor-pointer" title="Voice Response (Text-to-Speech) On/Off" aria-label="Toggle Voice Response">
+        <button id="chat-tts-toggle-btn" class="w-7 h-7 flex items-center justify-center text-slate-300 hover:text-white rounded-lg hover:bg-white/10 transition text-xs shrink-0 cursor-pointer" title="Voice Response (Text-to-Speech) On/Off" aria-label="Toggle Voice Response">
           <i class="fa-solid fa-volume-high" id="tts-icon"></i>
         </button>
-        <button id="chat-clear-btn" class="p-1.5 text-slate-300 hover:text-white rounded-lg hover:bg-white/10 transition text-xs cursor-pointer" title="Clear Conversation" aria-label="Clear Chat History">
+        <button id="chat-clear-btn" class="w-7 h-7 flex items-center justify-center text-slate-300 hover:text-white rounded-lg hover:bg-white/10 transition text-xs shrink-0 cursor-pointer" title="Clear Conversation" aria-label="Clear Chat History">
           <i class="fa-solid fa-rotate-right"></i>
         </button>
-        <button id="chat-close-btn" onclick="window.closeCorvitChat &amp;&amp; window.closeCorvitChat()" class="p-1.5 text-slate-300 hover:text-white rounded-lg hover:bg-white/10 transition text-xs cursor-pointer" title="Close Chat" aria-label="Close Chat Window">
+        <button id="chat-close-btn" class="w-7 h-7 rounded-full bg-white/15 hover:bg-corvit-red text-white flex items-center justify-center transition text-xs shrink-0 ml-1 cursor-pointer shadow-sm active:scale-95" title="Close Chat" aria-label="Close Chat Window">
           <i class="fa-solid fa-xmark text-sm"></i>
         </button>
       </div>

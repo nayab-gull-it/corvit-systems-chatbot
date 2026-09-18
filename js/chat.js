@@ -164,7 +164,16 @@
       }
     }
     if (chatTeaserPill) {
-      chatTeaserPill.classList.add('hidden');
+      chatTeaserPill.classList.add('teaser-hidden');
+      chatTeaserPill.style.display = 'none';
+    }
+    const launcherIcon = document.getElementById('chat-launcher-icon');
+    if (launcherIcon) {
+      launcherIcon.className = 'fa-solid fa-chevron-down';
+    }
+    if (chatLauncherBtn) {
+      chatLauncherBtn.setAttribute('title', 'Close Corvit AI Chat');
+      chatLauncherBtn.setAttribute('aria-expanded', 'true');
     }
   }
 
@@ -176,20 +185,34 @@
       stopVoiceListening();
     }
     if (chatTeaserPill) {
-      chatTeaserPill.classList.remove('hidden');
+      chatTeaserPill.classList.remove('teaser-hidden');
+      chatTeaserPill.style.display = '';
+    }
+    const launcherIcon = document.getElementById('chat-launcher-icon');
+    if (launcherIcon) {
+      launcherIcon.className = 'fa-solid fa-robot';
+    }
+    if (chatLauncherBtn) {
+      chatLauncherBtn.setAttribute('title', 'Open Corvit AI Chat');
+      chatLauncherBtn.setAttribute('aria-expanded', 'false');
     }
   }
 
-  window.openCorvitChat = openChat;
-  window.closeCorvitChat = closeChat;
-
-  function toggleChat() {
+  function toggleChat(e) {
+    if (e && typeof e.preventDefault === 'function') {
+      e.preventDefault();
+      e.stopPropagation();
+    }
     if (chatbotWidget && chatbotWidget.classList.contains('widget-open')) {
       closeChat();
     } else {
       openChat();
     }
   }
+
+  window.openCorvitChat = openChat;
+  window.closeCorvitChat = closeChat;
+  window.toggleCorvitChat = toggleChat;
 
   // Toggle Fullscreen / Wide Mode
   function toggleExpandMode() {
@@ -828,13 +851,17 @@
 
         // Update live header badge if available
         if (engineStatusText && data.modelName) {
-          engineStatusText.textContent = data.fallback ? `Fallback Active: ${data.modelName}` : data.modelName;
+          const cleanName = data.modelName.replace(' (Flagship)', '').replace(' (High-Speed)', '').replace(' (Backup)', '');
+          engineStatusText.textContent = data.fallback ? `Fallback: ${cleanName}` : `${cleanName} Online`;
         }
 
         streamAssistantMessage(trimmed, reply, meta);
         conversationHistory.push({ role: 'assistant', content: reply });
       } else {
         console.warn('Serverless endpoint returned non-200, running client fallback engine.');
+        if (engineStatusText) {
+          engineStatusText.textContent = 'Dataset Engine';
+        }
         const fallbackReply = getClientFallbackResponse(trimmed);
         const meta = {
           modelUsed: 'local-dataset-rag',
@@ -848,6 +875,9 @@
       }
     } catch (networkError) {
       console.warn('Network fetch error, switching to dataset fallback engine:', networkError.message);
+      if (engineStatusText) {
+        engineStatusText.textContent = 'Dataset Engine';
+      }
       const fallbackReply = getClientFallbackResponse(trimmed);
       const meta = {
         modelUsed: 'local-dataset-rag',
@@ -874,17 +904,24 @@
     }
   };
 
-  // Event Listeners
+  // Event Listeners - direct handlers to eliminate multiple event firing / race conditions
   if (chatLauncherBtn) {
-    chatLauncherBtn.addEventListener('click', toggleChat);
+    chatLauncherBtn.onclick = toggleChat;
   }
 
   if (chatTeaserPill) {
-    chatTeaserPill.addEventListener('click', openChat);
+    chatTeaserPill.onclick = (e) => {
+      e.preventDefault();
+      openChat();
+    };
   }
 
   if (chatCloseBtn) {
-    chatCloseBtn.addEventListener('click', closeChat);
+    chatCloseBtn.onclick = (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      closeChat();
+    };
   }
 
   if (chatClearBtn) {

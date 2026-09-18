@@ -144,7 +144,7 @@ corvit-chatbot/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/corvit-systems-chatbot.git
+git clone https://github.com/nayab-gull-it/corvit-systems-chatbot.git
 cd corvit-systems-chatbot
 ```
 

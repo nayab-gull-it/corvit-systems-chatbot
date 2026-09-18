@@ -12,7 +12,7 @@
     "title": "Corvit Systems Fee Flyer",
     "description": "Official visual fee flyer and promotional bundles for Corvit courses.",
     "url": "https://corvit.com/systems/wp-content/uploads/2026/07/Lahore-Fee-2026.png",
-    "trigger_keywords": ["fee", "fees", "cost", "price", "pricing", "charges", "discount", "promo"],
+    "trigger_keywords": ["fee", "fees", "cost", "price", "pricing", "charges", "discount", "promo", "kitni", "paise"],
     "preview_caption": "Corvit Systems Official Fee Structure"
   },
   {
@@ -20,7 +20,7 @@
     "title": "Campus Labs & Facilities",
     "description": "Photograph of Corvit Systems campus, hardware equipment, and student computer lab infrastructure at Zarwar Center, Rawalpindi.",
     "url": "https://corvit.com/systems/wp-content/uploads/2023/04/photo_2020-07-28_20-01-38.jpg",
-    "trigger_keywords": ["lab", "labs", "campus", "facility", "infrastructure", "hardware", "classroom", "location"],
+    "trigger_keywords": ["lab", "labs", "campus", "facility", "infrastructure", "hardware", "classroom", "location", "address", "zarwar"],
     "preview_caption": "Corvit Systems Enterprise Labs & Campus"
   },
   {
@@ -28,7 +28,7 @@
     "title": "CCNA Training & Free Linux Bundle Flyer",
     "description": "Promotional banner detailing the Cisco CCNA program with bundled Free RHCSA Linux training.",
     "url": "https://corvit.com/systems/wp-content/uploads/2023/04/sCCNA.png",
-    "trigger_keywords": ["ccna", "cisco", "rhcsa", "linux promo", "networking course"],
+    "trigger_keywords": ["ccna", "cisco", "rhcsa", "linux", "networking course", "routing", "switching"],
     "preview_caption": "CCNA + Free Linux Bundle at Corvit"
   },
   {
@@ -38,5 +38,37 @@
     "url": "https://corvit.com/systems/wp-content/uploads/2023/03/class-room-mode.png",
     "trigger_keywords": ["mode", "online", "physical", "classroom", "one to one", "remote"],
     "preview_caption": "Flexible Learning Modes at Corvit"
+  },
+  {
+    "id": "cyber_security",
+    "title": "Cyber Security & CEH Ethical Hacking",
+    "description": "Official course track banner for Certified Ethical Hacker (CEH), Next-Gen Firewalls (Fortinet/Palo Alto), and SOC Analyst.",
+    "url": "/dataset/cyber-security-banner.svg",
+    "trigger_keywords": ["security", "cyber", "ceh", "ethical", "hacker", "firewall", "fortinet", "palo alto", "soc"],
+    "preview_caption": "Cyber Security & CEH Ethical Hacking Track"
+  },
+  {
+    "id": "agentic_ai",
+    "title": "Agentic AI & Autonomous LLMs Track",
+    "description": "Official curriculum banner for Agentic AI, Autonomous LLM Multi-Agents, LangChain, CrewAI, MCP, and Vector RAG.",
+    "url": "/dataset/agentic-ai-banner.svg",
+    "trigger_keywords": ["ai", "agentic", "llm", "python", "machine learning", "deep learning", "agents", "langchain"],
+    "preview_caption": "Agentic AI & Autonomous LLMs Track"
+  },
+  {
+    "id": "cloud_devops",
+    "title": "DevOps Engineering & Free AWS Cloud Bundle",
+    "description": "Special promotional track for Docker, Kubernetes, CI/CD, Terraform, and free AWS Solutions Architect training.",
+    "url": "/dataset/devops-cloud-banner.svg",
+    "trigger_keywords": ["devops", "cloud", "aws", "docker", "kubernetes", "k8s", "terraform", "ci/cd"],
+    "preview_caption": "DevOps Engineering & Free AWS Cloud"
+  },
+  {
+    "id": "navttc_free",
+    "title": "NAVTTC 100% Free Government IT Courses",
+    "description": "Prime Minister Youth Skill Development & NAVTTC 100% tuition-free government IT programs at Corvit Rawalpindi.",
+    "url": "/dataset/navttc-scholarship-banner.svg",
+    "trigger_keywords": ["navttc", "free", "scholarship", "government", "kamyab", "muft", "youth program"],
+    "preview_caption": "NAVTTC 100% Free Government IT Programs"
   }
 ]

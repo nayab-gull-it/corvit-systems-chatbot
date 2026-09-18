@@ -104,24 +104,36 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 
 /* Smooth Slide-in Panel */
 #chatbot-widget {
-  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.3s ease-out;
+  transition: opacity 0.25s ease-out, transform 0.25s ease-out;
   will-change: transform, opacity;
 }
 
 #chatbot-widget.widget-closed {
-  transform: translateY(110%) scale(0.95);
-  opacity: 0;
-  pointer-events: none;
+  display: none !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
 }
 
 #chatbot-widget.widget-open {
-  transform: translateY(0) scale(1);
-  opacity: 1;
-  pointer-events: auto;
+  display: flex !important;
+  opacity: 1 !important;
+  pointer-events: auto !important;
+  animation: widgetSlideUp 0.28s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes widgetSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
 }
 
 @media (max-width: 640px) {
-  #chatbot-widget {
+  #chatbot-widget.widget-open {
     width: 100% !important;
     height: 100vh !important;
     max-height: 100vh !important;
@@ -164,3 +176,177 @@ h1, h2, h3, h4, h5, h6, .font-heading {
 .btn-float-glow:hover {
   box-shadow: 0 15px 30px -5px rgba(203, 32, 38, 0.6), 0 10px 12px -6px rgba(203, 32, 38, 0.4);
 }
+
+/* Voice AI Mic Pulse & Soundwave */
+.mic-listening {
+  background-color: #cb2026 !important;
+  color: #ffffff !important;
+  box-shadow: 0 0 0 0 rgba(203, 32, 38, 0.7);
+  animation: micPulse 1.2s infinite;
+}
+
+@keyframes micPulse {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(203, 32, 38, 0.7);
+  }
+  70% {
+    transform: scale(1.08);
+    box-shadow: 0 0 0 10px rgba(203, 32, 38, 0);
+  }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(203, 32, 38, 0);
+  }
+}
+
+.voice-soundwave .sound-bar {
+  animation: soundwaveEqualizer 0.8s ease-in-out infinite alternate;
+}
+
+@keyframes soundwaveEqualizer {
+  0% {
+    height: 4px;
+    opacity: 0.5;
+  }
+  100% {
+    height: 14px;
+    opacity: 1;
+  }
+}
+
+/* Streaming Cursor */
+.streaming-cursor {
+  display: inline-block;
+  width: 7px;
+  height: 13px;
+  background-color: #cb2026;
+  margin-left: 2px;
+  vertical-align: middle;
+  animation: cursorBlink 0.7s infinite;
+}
+
+@keyframes cursorBlink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* WhatsApp 1-Click CTA */
+.whatsapp-cta-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+  color: white;
+  font-weight: 600;
+  font-size: 11px;
+  padding: 6px 12px;
+  border-radius: 9999px;
+  box-shadow: 0 3px 10px rgba(37, 211, 102, 0.3);
+  transition: all 0.2s ease;
+  text-decoration: none;
+  margin-top: 8px;
+}
+.whatsapp-cta-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 15px rgba(37, 211, 102, 0.45);
+  color: white;
+}
+
+/* Markdown Tables in Chat Bubbles */
+.chat-bubble table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 8px 0;
+  font-size: 11px;
+}
+.chat-bubble th, .chat-bubble td {
+  border: 1px solid #e2e8f0;
+  padding: 5px 8px;
+  text-align: left;
+}
+.chat-bubble th {
+  background-color: #f1f5f9;
+  color: #0f172a;
+  font-weight: 600;
+}
+.chat-bubble tr:nth-child(even) {
+  background-color: #f8fafc;
+}
+
+/* Fullscreen / Expanded Widget Mode */
+#chatbot-widget.widget-expanded {
+  width: 780px !important;
+  max-width: 95vw !important;
+  height: 85vh !important;
+  max-height: 85vh !important;
+}
+
+@media (max-width: 640px) {
+  #chatbot-widget.widget-expanded {
+    width: 100% !important;
+    height: 100vh !important;
+    max-height: 100vh !important;
+  }
+}
+
+/* Lightbox Modal */
+#lightbox-modal:not(.hidden) {
+  animation: modalFadeIn 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes modalFadeIn {
+  from { opacity: 0; transform: scale(0.98); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+/* Copy Tooltip */
+.copy-tooltip {
+  position: relative;
+}
+.copy-tooltip::after {
+  content: "Copied!";
+  position: absolute;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #0f172a;
+  color: #ffffff;
+  padding: 2px 7px;
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: 600;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+  white-space: nowrap;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+}
+.copy-tooltip.show-tooltip::after {
+  opacity: 1;
+}
+
+/* Telemetry Badge */
+.telemetry-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 10px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  padding: 2px 7px;
+  border-radius: 9999px;
+  background-color: #f1f5f9;
+  color: #64748b;
+  border: 1px solid #e2e8f0;
+}
+
+/* Response Action Bar */
+.msg-action-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8px;
+  padding-top: 6px;
+  border-top: 1px solid #f1f5f9;
+}
+

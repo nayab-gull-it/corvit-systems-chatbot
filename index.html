@@ -1003,7 +1003,7 @@
     </div>
 
     <!-- Circle Launcher -->
-    <button id="chat-launcher-btn" class="chat-beacon btn-float-glow w-14 h-14 rounded-full bg-corvit-red hover:bg-corvit-red-dark text-white flex items-center justify-center text-xl transition-transform active:scale-95 cursor-pointer" aria-label="Open Corvit AI Chatbot">
+    <button id="chat-launcher-btn" onclick="window.openCorvitChat &amp;&amp; window.openCorvitChat()" class="chat-beacon btn-float-glow w-14 h-14 rounded-full bg-corvit-red hover:bg-corvit-red-dark text-white flex items-center justify-center text-xl transition-transform active:scale-95 cursor-pointer" aria-label="Open Corvit AI Chatbot">
       <i class="fa-solid fa-robot" id="chat-launcher-icon"></i>
     </button>
   </div>
@@ -1031,10 +1031,23 @@
       
       <!-- Widget Controls -->
       <div class="flex items-center gap-1">
+        <div class="hidden sm:flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-emerald-500/15 border border-emerald-500/30 text-emerald-300 text-[10px] font-mono mr-1" id="engine-status-pill" title="Tier 1: Groq 120B Flagship | Tier 2: Groq 20B Fast Fallback | Tier 3: Qwen 27B Backup | Tier 4: Grounded Dataset Engine">
+          <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+          <span id="engine-status-text">Groq 120B / Fallback Ready</span>
+        </div>
+        <button id="chat-expand-btn" class="p-1.5 text-slate-300 hover:text-white rounded-lg hover:bg-white/10 transition text-xs cursor-pointer" title="Expand to Wide Mode" aria-label="Toggle Fullscreen Width">
+          <i class="fa-solid fa-up-right-and-down-left-from-center" id="expand-icon"></i>
+        </button>
+        <button id="chat-export-btn" class="p-1.5 text-slate-300 hover:text-white rounded-lg hover:bg-white/10 transition text-xs cursor-pointer" title="Download Chat Summary" aria-label="Export Chat Transcript">
+          <i class="fa-solid fa-download"></i>
+        </button>
+        <button id="chat-tts-toggle-btn" class="p-1.5 text-slate-300 hover:text-white rounded-lg hover:bg-white/10 transition text-xs cursor-pointer" title="Voice Response (Text-to-Speech) On/Off" aria-label="Toggle Voice Response">
+          <i class="fa-solid fa-volume-high" id="tts-icon"></i>
+        </button>
         <button id="chat-clear-btn" class="p-1.5 text-slate-300 hover:text-white rounded-lg hover:bg-white/10 transition text-xs cursor-pointer" title="Clear Conversation" aria-label="Clear Chat History">
           <i class="fa-solid fa-rotate-right"></i>
         </button>
-        <button id="chat-close-btn" class="p-1.5 text-slate-300 hover:text-white rounded-lg hover:bg-white/10 transition text-xs cursor-pointer" title="Close Chat" aria-label="Close Chat Window">
+        <button id="chat-close-btn" onclick="window.closeCorvitChat &amp;&amp; window.closeCorvitChat()" class="p-1.5 text-slate-300 hover:text-white rounded-lg hover:bg-white/10 transition text-xs cursor-pointer" title="Close Chat" aria-label="Close Chat Window">
           <i class="fa-solid fa-xmark text-sm"></i>
         </button>
       </div>
@@ -1047,9 +1060,12 @@
         <div class="w-7 h-7 rounded-full bg-corvit-red text-white flex items-center justify-center text-xs shrink-0 mt-0.5 shadow-sm">
           <i class="fa-solid fa-robot"></i>
         </div>
-        <div class="bg-white rounded-2xl rounded-tl-sm p-3.5 border border-slate-200 shadow-sm text-slate-800 text-xs leading-relaxed max-w-[85%]">
-          <p class="font-semibold text-slate-900 mb-1">Hello! Welcome to Corvit Systems Rawalpindi 👋</p>
-          <p class="text-slate-600 mb-2">I am your AI Academic Advisor for the 6th Road Rawalpindi campus. How can I assist you today?</p>
+        <div class="bg-white rounded-2xl rounded-tl-sm p-3.5 border border-slate-200 shadow-sm text-slate-800 text-xs leading-relaxed max-w-[88%]">
+          <div class="flex items-center justify-between mb-1">
+            <p class="font-semibold text-slate-900">Welcome to Corvit Systems Rawalpindi 👋</p>
+            <span class="text-[10px] px-1.5 py-0.5 rounded bg-red-50 text-corvit-red font-medium">Bilingual AI</span>
+          </div>
+          <p class="text-slate-600 mb-2">I am your official AI Academic Advisor for the Zarwar Center (6th Road) campus. You can type or <strong>speak into the mic in English or Roman Urdu!</strong></p>
           <ul class="space-y-1 text-slate-600 list-disc list-inside">
             <li>Rawalpindi batch schedules &amp; upcoming timings</li>
             <li>Course fees &amp; promotional bundle discounts</li>
@@ -1063,17 +1079,34 @@
     <!-- Quick Prompt Suggestion Chips -->
     <div id="chat-suggestion-chips" class="px-3.5 py-2 bg-white border-t border-slate-100 flex items-center gap-1.5 overflow-x-auto text-[11px] no-scrollbar">
       <button class="suggestion-chip shrink-0 px-2.5 py-1 rounded-full bg-slate-100 hover:bg-red-50 hover:text-corvit-red text-slate-600 transition border border-slate-200 cursor-pointer" data-prompt="Where is the Rawalpindi campus located and how do I contact them?">
-        📍 RWP Location &amp; Contact
+        📍 RWP Zarwar Center
+      </button>
+      <button class="suggestion-chip shrink-0 px-2.5 py-1 rounded-full bg-slate-100 hover:bg-red-50 hover:text-corvit-red text-slate-600 transition border border-slate-200 cursor-pointer" data-prompt="CCNA ki fee kitni hai aur kiya Linux free bundle shamil hai?">
+        💰 CCNA Fee &amp; Free Linux
       </button>
       <button class="suggestion-chip shrink-0 px-2.5 py-1 rounded-full bg-slate-100 hover:bg-red-50 hover:text-corvit-red text-slate-600 transition border border-slate-200 cursor-pointer" data-prompt="Tell me about NAVTTC 100% free courses at Corvit Rawalpindi.">
-        🇵🇰 NAVTTC Free Courses?
+        🇵🇰 NAVTTC Free Courses
       </button>
       <button class="suggestion-chip shrink-0 px-2.5 py-1 rounded-full bg-slate-100 hover:bg-red-50 hover:text-corvit-red text-slate-600 transition border border-slate-200 cursor-pointer" data-prompt="What are the upcoming batch timings for CCNA and Cyber Security in Rawalpindi?">
-        📅 Batch Schedules?
+        📅 Batch Timetable
       </button>
-      <button class="suggestion-chip shrink-0 px-2.5 py-1 rounded-full bg-slate-100 hover:bg-red-50 hover:text-corvit-red text-slate-600 transition border border-slate-200 cursor-pointer" data-prompt="Which IT course is best for a beginner in the Twin Cities?">
-        🎓 Best course for beginners?
+      <button class="suggestion-chip shrink-0 px-2.5 py-1 rounded-full bg-slate-100 hover:bg-red-50 hover:text-corvit-red text-slate-600 transition border border-slate-200 cursor-pointer" data-prompt="Mujhe Rawalpindi campus ke WhatsApp counselor se baat karni hai.">
+        💬 WhatsApp Counselor
       </button>
+    </div>
+
+    <!-- Voice Listening Pulse Banner (Hidden by default) -->
+    <div id="chat-voice-status" class="hidden px-4 py-2 bg-red-50 border-t border-red-100 flex items-center justify-between text-xs text-corvit-red">
+      <div class="flex items-center gap-2">
+        <span class="w-2.5 h-2.5 rounded-full bg-corvit-red animate-ping"></span>
+        <span class="font-semibold" id="chat-voice-status-text">Listening... Speak now (Urdu / English)</span>
+      </div>
+      <div class="voice-soundwave flex items-center gap-1 h-3">
+        <span class="sound-bar bg-corvit-red w-1 rounded-full h-2 animate-bounce"></span>
+        <span class="sound-bar bg-corvit-red w-1 rounded-full h-3 animate-bounce" style="animation-delay: 0.15s"></span>
+        <span class="sound-bar bg-corvit-red w-1 rounded-full h-1.5 animate-bounce" style="animation-delay: 0.3s"></span>
+        <span class="sound-bar bg-corvit-red w-1 rounded-full h-3 animate-bounce" style="animation-delay: 0.45s"></span>
+      </div>
     </div>
 
     <!-- Typing Indicator (Hidden by default) -->
@@ -1084,12 +1117,57 @@
 
     <!-- Input Footer -->
     <form id="chat-input-form" class="p-3 bg-white border-t border-slate-200 flex items-center gap-2">
-      <input type="text" id="chat-input-text" autocomplete="off" placeholder="Ask anything about Rawalpindi courses, fees, timings..." class="flex-1 px-3.5 py-2.5 text-xs bg-slate-100 rounded-xl border border-slate-200 focus:bg-white focus:outline-none focus:ring-2 focus:ring-corvit-red/40 text-slate-800">
+      <input type="text" id="chat-input-text" autocomplete="off" placeholder="Type or click mic to speak in Urdu/English..." class="flex-1 px-3.5 py-2.5 text-xs bg-slate-100 rounded-xl border border-slate-200 focus:bg-white focus:outline-none focus:ring-2 focus:ring-corvit-red/40 text-slate-800">
+      
+      <!-- Voice Language Toggle (UR / EN) -->
+      <button type="button" id="chat-lang-btn" class="px-2 h-9 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-[11px] flex items-center justify-center transition shrink-0 border border-slate-200 cursor-pointer" title="Switch Voice Language: Urdu (UR) or English (EN)" aria-label="Toggle Speech Language">
+        <span id="chat-lang-label">UR</span>
+      </button>
+
+      <!-- Voice Mic Button -->
+      <button type="button" id="chat-mic-btn" class="w-9 h-9 rounded-xl bg-slate-100 hover:bg-red-50 text-slate-600 hover:text-corvit-red flex items-center justify-center transition active:scale-95 shrink-0 border border-slate-200 cursor-pointer" title="Speak to Ask (Voice AI)" aria-label="Voice Input">
+        <i class="fa-solid fa-microphone text-xs" id="mic-icon"></i>
+      </button>
+
+      <!-- Send Button -->
       <button type="submit" id="chat-send-btn" class="w-9 h-9 rounded-xl bg-corvit-red hover:bg-corvit-red-dark text-white flex items-center justify-center transition active:scale-95 disabled:opacity-50 shrink-0 cursor-pointer" aria-label="Send message">
         <i class="fa-solid fa-paper-plane text-xs"></i>
       </button>
     </form>
 
+  </div>
+
+  <!-- 13. INTERACTIVE IMAGE LIGHTBOX MODAL -->
+  <div id="lightbox-modal" class="hidden fixed inset-0 z-[100] bg-slate-950/85 backdrop-blur-md flex items-center justify-center p-4 transition-opacity duration-300">
+    <div class="relative max-w-4xl w-full bg-slate-900 border border-slate-800 rounded-2xl shadow-2xl overflow-hidden flex flex-col max-h-[92vh]">
+      <!-- Header -->
+      <div class="px-5 py-3.5 border-b border-slate-800 flex items-center justify-between text-white">
+        <div class="flex items-center gap-2.5">
+          <span class="w-2 h-2 rounded-full bg-corvit-red"></span>
+          <h3 id="lightbox-title" class="font-bold text-sm text-slate-100 font-heading">Corvit Systems Preview</h3>
+        </div>
+        <div class="flex items-center gap-2">
+          <a id="lightbox-download-btn" href="#" target="_blank" download class="px-3 py-1.5 rounded-lg bg-white/10 hover:bg-white/20 text-slate-200 text-xs font-semibold transition flex items-center gap-1.5">
+            <i class="fa-solid fa-arrow-down"></i> Open Original
+          </a>
+          <button id="lightbox-close-btn" class="p-1.5 rounded-lg text-slate-400 hover:text-white hover:bg-white/10 transition text-sm cursor-pointer" aria-label="Close Preview">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+      </div>
+      <!-- Body Image -->
+      <div class="flex-1 overflow-auto p-4 flex items-center justify-center bg-slate-950/60 min-h-[300px]">
+        <img id="lightbox-image" src="" alt="Corvit Preview" class="max-h-[65vh] w-auto object-contain rounded-lg shadow-lg">
+      </div>
+      <!-- Footer Actions -->
+      <div class="px-5 py-3.5 bg-slate-900/90 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
+        <p id="lightbox-caption" class="text-slate-400 text-center sm:text-left">Official Corvit Systems Rawalpindi Document</p>
+        <a id="lightbox-whatsapp-btn" href="https://wa.me/923111444473" target="_blank" rel="noopener" class="whatsapp-cta-btn !m-0 !py-2 !px-4 cursor-pointer">
+          <i class="fa-brands fa-whatsapp text-sm"></i>
+          <span>Ask Counselor About This On WhatsApp</span>
+        </a>
+      </div>
+    </div>
   </div>
 
   <!-- Client-side Scripts -->

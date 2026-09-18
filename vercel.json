@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "buildCommand": null,
+  "outputDirectory": ".",
+  "framework": null,
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/api/chat",
+      "destination": "/api/chat.js"
+    },
+    {
+      "source": "/.netlify/functions/chat",
+      "destination": "/api/chat.js"
+    }
+  ]
+}

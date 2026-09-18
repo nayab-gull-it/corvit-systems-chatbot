@@ -144,7 +144,7 @@ corvit-chatbot/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/corvit-systems-chatbot.git
+git clone https://github.com/nayab-gull-it/corvit-systems-chatbot.git
 cd corvit-systems-chatbot
 ```
 
@@ -188,5 +188,3 @@ Developed as a flagship portfolio project for **Corvit Systems Rawalpindi**.
 If this project helped or inspired you, feel free to give it a ⭐ on GitHub!
 
 **Author:** Nayab Gull &bull; AI Batch 3  
-**Campus:** Zarwar Center, 6th Road Stop, Rawalpindi  
-**License:** [MIT](LICENSE)

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="navttcBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#062b1a" />
+      <stop offset="50%" stop-color="#0a442a" />
+      <stop offset="100%" stop-color="#061f14" />
+    </linearGradient>
+    <linearGradient id="pakGreen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+    <linearGradient id="goldAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="450" fill="url(#navttcBg)" />
+
+  <!-- Decorative crescent and star glow -->
+  <circle cx="700" cy="130" r="130" fill="#10b981" opacity="0.15" filter="blur(40px)" />
+  <circle cx="150" cy="380" r="100" fill="#fbbf24" opacity="0.1" filter="blur(40px)" />
+
+  <!-- Top Badges -->
+  <rect x="50" y="45" width="220" height="32" rx="16" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.2" />
+  <circle cx="66" cy="61" r="5" fill="#10b981" />
+  <text x="82" y="66" fill="#e2e8f0" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" letter-spacing="1">CORVIT SYSTEMS RWP</text>
+
+  <rect x="280" y="45" width="240" height="32" rx="16" fill="url(#goldAccent)" />
+  <text x="400" y="66" fill="#000000" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="800" text-anchor="middle">100% GOVERNMENT FUNDED</text>
+
+  <!-- Title -->
+  <text x="50" y="130" fill="#ffffff" font-family="'Segoe UI', Roboto, sans-serif" font-size="36" font-weight="900" letter-spacing="-0.5">NAVTTC Free Courses</text>
+  <text x="50" y="175" fill="url(#pakGreen)" font-family="'Segoe UI', Roboto, sans-serif" font-size="36" font-weight="900">&amp; PM Youth Skill Program</text>
+
+  <!-- Subtitle -->
+  <text x="50" y="215" fill="#94a3b8" font-family="'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="500">Zero Tuition Fee &bull; Free Books &bull; Enterprise Zarwar Center Labs &bull; Govt Certificate</text>
+
+  <!-- Features Grid Box -->
+  <g transform="translate(50, 245)">
+    <!-- Box 1 -->
+    <rect x="0" y="0" width="210" height="85" rx="12" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.1" />
+    <text x="18" y="32" fill="#34d399" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700">Eligible Tracks</text>
+    <text x="18" y="55" fill="#cbd5e1" font-family="'Segoe UI', Roboto, sans-serif" font-size="11">Artificial Intelligence &bull; Cyber</text>
+    <text x="18" y="70" fill="#cbd5e1" font-family="'Segoe UI', Roboto, sans-serif" font-size="11">Cloud Computing &bull; Web Dev</text>
+
+    <!-- Box 2 -->
+    <rect x="230" y="0" width="210" height="85" rx="12" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.1" />
+    <text x="248" y="32" fill="#fbbf24" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700">Student Benefits</text>
+    <text x="248" y="55" fill="#cbd5e1" font-family="'Segoe UI', Roboto, sans-serif" font-size="11">100% Free Tuition</text>
+    <text x="248" y="70" fill="#cbd5e1" font-family="'Segoe UI', Roboto, sans-serif" font-size="11">Recognized Govt Diploma</text>
+
+    <!-- Box 3 -->
+    <rect x="460" y="0" width="230" height="85" rx="12" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.1" />
+    <text x="478" y="32" fill="#38bdf8" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700">Eligibility &amp; Apply</text>
+    <text x="478" y="55" fill="#cbd5e1" font-family="'Segoe UI', Roboto, sans-serif" font-size="11">Pakistani CNIC / B-Form</text>
+    <text x="478" y="70" fill="#cbd5e1" font-family="'Segoe UI', Roboto, sans-serif" font-size="11">Merit-based admission</text>
+  </g>
+
+  <!-- Footer Info Bar -->
+  <rect x="50" y="360" width="700" height="50" rx="10" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.1" />
+  <text x="70" y="390" fill="#f1f5f9" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">📍 Zarwar Center, 2nd Floor, 6th Road, Rawalpindi</text>
+  <text x="440" y="390" fill="#f1f5f9" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">📞 (051) 4928004 &bull; 💬 0311-1444473</text>
+</svg>

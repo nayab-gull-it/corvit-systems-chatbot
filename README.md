@@ -3,7 +3,7 @@
 # 🎓 CORVIT SYSTEMS RAWALPINDI
 ### Enterprise Multi-Tier AI Academic Advisor & Student Platform
 
-[![Live Demo](https://img.shields.io/badge/Live%20Platform-Online-crimson?style=for-the-badge&logo=googlechrome&logoColor=white)](http://localhost:3000)
+[![Live Demo](https://img.shields.io/badge/Live%20Platform-Online-crimson?style=for-the-badge&logo=googlechrome&logoColor=white)](https://corvit-systems-chatbot.vercel.app/)
 [![Groq AI](https://img.shields.io/badge/AI%20Engine-Groq%20Cascading%20LLMs-f55036?style=for-the-badge&logo=groq&logoColor=white)](https://groq.com)
 [![Deployment](https://img.shields.io/badge/Deploy-Vercel%20%7C%20Netlify-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com)
 [![Speech AI](https://img.shields.io/badge/Voice%20AI-Bilingual%20Urdu%20%26%20English-2563eb?style=for-the-badge&logo=soundcharts&logoColor=white)](https://corvit.com)
@@ -24,16 +24,25 @@
 
 ## 📸 Visual Showcase & Course Banners
 
-The platform dynamically matches student queries with verified institutional flyers and high-resolution vector course cards:
+The platform dynamically matches student queries with verified institutional flyers, server lab previews, and high-resolution course banners:
+
+### 🏛️ Official Institutional Flyers & Campus Labs
+
+| 🌐 Cisco CCNA 200-301 + Free Linux Bundle | 🏢 Enterprise Hardware Labs & Server Racks |
+| :---: | :---: |
+| <img src="https://corvit.com/systems/wp-content/uploads/2023/04/sCCNA.png" width="100%" alt="Cisco CCNA Bundle Flyer" /> | <img src="https://corvit.com/systems/wp-content/uploads/2023/04/photo_2020-07-28_20-01-38.jpg" width="100%" alt="Corvit Hardware Labs Zarwar Center" /> |
+| **Official Admission Flyer & Free Linux Voucher** | **Cisco Routers, Switches & Live Server Racks at Zarwar Center** |
+
+### 🎯 Advanced Curriculum Tracks
 
 | 🛡️ Cyber Security & CEH Track | 🤖 Agentic AI & Autonomous LLMs |
 | :---: | :---: |
-| <img src="dataset/cyber-security-banner.svg" width="100%" alt="Cyber Security Banner" /> | <img src="dataset/agentic-ai-banner.svg" width="100%" alt="Agentic AI Banner" /> |
+| <img src="https://raw.githubusercontent.com/nayab-gull-it/corvit-systems-chatbot/main/dataset/cyber-security-banner.svg" width="100%" alt="Cyber Security Banner" /> | <img src="https://raw.githubusercontent.com/nayab-gull-it/corvit-systems-chatbot/main/dataset/agentic-ai-banner.svg" width="100%" alt="Agentic AI Banner" /> |
 | **Offensive Pen-Testing, Firewalls & SOC Analyst** | **LangChain, CrewAI, MCP & Production RAG** |
 
 | ☁️ DevOps Engineering & AWS Cloud | 🇵🇰 NAVTTC 100% Free Government IT |
 | :---: | :---: |
-| <img src="dataset/devops-cloud-banner.svg" width="100%" alt="DevOps Banner" /> | <img src="dataset/navttc-scholarship-banner.svg" width="100%" alt="NAVTTC Banner" /> |
+| <img src="https://raw.githubusercontent.com/nayab-gull-it/corvit-systems-chatbot/main/dataset/devops-cloud-banner.svg" width="100%" alt="DevOps Banner" /> | <img src="https://raw.githubusercontent.com/nayab-gull-it/corvit-systems-chatbot/main/dataset/navttc-scholarship-banner.svg" width="100%" alt="NAVTTC Banner" /> |
 | **Docker, Kubernetes, CI/CD + Free AWS Module** | **Prime Minister Youth Skill Development (Zero Tuition)** |
 
 ---

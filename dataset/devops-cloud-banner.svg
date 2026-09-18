@@ -13,14 +13,22 @@
       <stop offset="0%" stop-color="#2563eb" />
       <stop offset="100%" stop-color="#06b6d4" />
     </linearGradient>
+    <radialGradient id="cloudGlowAmber" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff9900" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#ff9900" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="cloudGlowBlue" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2563eb" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#2563eb" stop-opacity="0" />
+    </radialGradient>
   </defs>
   <!-- Background -->
   <rect width="800" height="450" fill="url(#cloudBg)" />
 
   <!-- Infinity loop decorative graphic for DevOps -->
   <path d="M 620 180 C 580 140, 530 140, 490 180 C 450 220, 400 220, 360 180" fill="none" stroke="#2563eb" stroke-width="3" opacity="0.15" />
-  <circle cx="680" cy="140" r="140" fill="#ff9900" opacity="0.12" filter="blur(45px)" />
-  <circle cx="150" cy="380" r="120" fill="#2563eb" opacity="0.12" filter="blur(40px)" />
+  <circle cx="680" cy="140" r="160" fill="url(#cloudGlowAmber)" />
+  <circle cx="150" cy="380" r="140" fill="url(#cloudGlowBlue)" />
 
   <!-- Top Badges -->
   <rect x="50" y="45" width="220" height="32" rx="16" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.2" />

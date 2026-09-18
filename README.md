@@ -37,12 +37,12 @@ The platform dynamically matches student queries with verified institutional fly
 
 | 🛡️ Cyber Security & CEH Track | 🤖 Agentic AI & Autonomous LLMs |
 | :---: | :---: |
-| <img src="https://raw.githubusercontent.com/nayab-gull-it/corvit-systems-chatbot/main/dataset/cyber-security-banner.svg" width="100%" alt="Cyber Security Banner" /> | <img src="https://raw.githubusercontent.com/nayab-gull-it/corvit-systems-chatbot/main/dataset/agentic-ai-banner.svg" width="100%" alt="Agentic AI Banner" /> |
+| <img src="./dataset/cyber-security-banner.svg" width="100%" alt="Cyber Security Banner" /> | <img src="./dataset/agentic-ai-banner.svg" width="100%" alt="Agentic AI Banner" /> |
 | **Offensive Pen-Testing, Firewalls & SOC Analyst** | **LangChain, CrewAI, MCP & Production RAG** |
 
 | ☁️ DevOps Engineering & AWS Cloud | 🇵🇰 NAVTTC 100% Free Government IT |
 | :---: | :---: |
-| <img src="https://raw.githubusercontent.com/nayab-gull-it/corvit-systems-chatbot/main/dataset/devops-cloud-banner.svg" width="100%" alt="DevOps Banner" /> | <img src="https://raw.githubusercontent.com/nayab-gull-it/corvit-systems-chatbot/main/dataset/navttc-scholarship-banner.svg" width="100%" alt="NAVTTC Banner" /> |
+| <img src="./dataset/devops-cloud-banner.svg" width="100%" alt="DevOps Banner" /> | <img src="./dataset/navttc-scholarship-banner.svg" width="100%" alt="NAVTTC Banner" /> |
 | **Docker, Kubernetes, CI/CD + Free AWS Module** | **Prime Minister Youth Skill Development (Zero Tuition)** |
 
 ---

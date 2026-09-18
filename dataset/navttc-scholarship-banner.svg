@@ -42,15 +42,15 @@
   <text x="50" y="175" fill="url(#pakGreen)" font-family="'Segoe UI', Roboto, sans-serif" font-size="36" font-weight="900">&amp; PM Youth Skill Program</text>
 
   <!-- Subtitle -->
-  <text x="50" y="215" fill="#94a3b8" font-family="'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="500">Zero Tuition Fee &bull; Free Books &bull; Enterprise Zarwar Center Labs &bull; Govt Certificate</text>
+  <text x="50" y="215" fill="#94a3b8" font-family="'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="500">Zero Tuition Fee • Free Books • Enterprise Zarwar Center Labs • Govt Certificate</text>
 
   <!-- Features Grid Box -->
   <g transform="translate(50, 245)">
     <!-- Box 1 -->
     <rect x="0" y="0" width="210" height="85" rx="12" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.1" />
     <text x="18" y="32" fill="#34d399" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700">Eligible Tracks</text>
-    <text x="18" y="55" fill="#cbd5e1" font-family="'Segoe UI', Roboto, sans-serif" font-size="11">Artificial Intelligence &bull; Cyber</text>
-    <text x="18" y="70" fill="#cbd5e1" font-family="'Segoe UI', Roboto, sans-serif" font-size="11">Cloud Computing &bull; Web Dev</text>
+    <text x="18" y="55" fill="#cbd5e1" font-family="'Segoe UI', Roboto, sans-serif" font-size="11">Artificial Intelligence • Cyber</text>
+    <text x="18" y="70" fill="#cbd5e1" font-family="'Segoe UI', Roboto, sans-serif" font-size="11">Cloud Computing • Web Dev</text>
 
     <!-- Box 2 -->
     <rect x="230" y="0" width="210" height="85" rx="12" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.1" />
@@ -68,5 +68,5 @@
   <!-- Footer Info Bar -->
   <rect x="50" y="360" width="700" height="50" rx="10" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.1" />
   <text x="70" y="390" fill="#f1f5f9" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">📍 Zarwar Center, 2nd Floor, 6th Road, Rawalpindi</text>
-  <text x="440" y="390" fill="#f1f5f9" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">📞 (051) 4928004 &bull; 💬 0311-1444473</text>
+  <text x="440" y="390" fill="#f1f5f9" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">📞 (051) 4928004 • 💬 0311-1444473</text>
 </svg>

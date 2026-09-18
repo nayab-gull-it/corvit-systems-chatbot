@@ -52,14 +52,14 @@
   <text x="50" y="175" fill="url(#cyberAccent)" font-family="'Segoe UI', Roboto, sans-serif" font-size="36" font-weight="900">Ethical Hacking (CEH)</text>
 
   <!-- Subtitle -->
-  <text x="50" y="215" fill="#94a3b8" font-family="'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="500">EC-Council Accredited &bull; Fortinet &amp; Palo Alto Firewalls &bull; SOC Analyst</text>
+  <text x="50" y="215" fill="#94a3b8" font-family="'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="500">EC-Council Accredited • Fortinet &amp; Palo Alto Firewalls • SOC Analyst</text>
 
   <!-- Features Grid Box -->
   <g transform="translate(50, 245)">
     <!-- Box 1 -->
     <rect x="0" y="0" width="210" height="85" rx="12" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.1" />
     <text x="18" y="32" fill="#38bdf8" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700">Penetration Testing</text>
-    <text x="18" y="55" fill="#cbd5e1" font-family="'Segoe UI', Roboto, sans-serif" font-size="11">Kali Linux &bull; Metasploit</text>
+    <text x="18" y="55" fill="#cbd5e1" font-family="'Segoe UI', Roboto, sans-serif" font-size="11">Kali Linux • Metasploit</text>
     <text x="18" y="70" fill="#cbd5e1" font-family="'Segoe UI', Roboto, sans-serif" font-size="11">Web App Exploitation</text>
 
     <!-- Box 2 -->
@@ -71,14 +71,14 @@
     <!-- Box 3 -->
     <rect x="460" y="0" width="230" height="85" rx="12" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.1" />
     <text x="478" y="32" fill="#fbbf24" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700">SOC &amp; Defensive Ops</text>
-    <text x="478" y="55" fill="#cbd5e1" font-family="'Segoe UI', Roboto, sans-serif" font-size="11">SIEM &bull; Incident Response</text>
+    <text x="478" y="55" fill="#cbd5e1" font-family="'Segoe UI', Roboto, sans-serif" font-size="11">SIEM • Incident Response</text>
     <text x="478" y="70" fill="#cbd5e1" font-family="'Segoe UI', Roboto, sans-serif" font-size="11">Live Attack Simulations</text>
   </g>
 
   <!-- Footer Info Bar -->
   <rect x="50" y="360" width="700" height="50" rx="10" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.1" />
   <text x="70" y="390" fill="#f1f5f9" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">📍 Zarwar Center, 6th Road, Rawalpindi</text>
-  <text x="430" y="390" fill="#f1f5f9" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">📞 (051) 4928004 &bull; 💬 0311-1444473</text>
+  <text x="430" y="390" fill="#f1f5f9" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">📞 (051) 4928004 • 💬 0311-1444473</text>
 
   <!-- Graphic Shield Emblem on Right -->
   <g transform="translate(640, 110)">
